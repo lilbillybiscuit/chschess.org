@@ -1,0 +1,293 @@
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+.container {
+  opacity: 1;
+}
+
+.heading {
+  font-size: 20px;
+}
+
+.text-field {
+  position: relative;
+  display: block;
+  width: auto;
+  min-width: auto;
+  margin-right: 0%;
+  margin-left: 0px;
+  border-radius: 5px;
+  background-color: #fff;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.text-field-2 {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  margin-right: 0%;
+  margin-left: 5%;
+  border-radius: 5px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.body {
+  background-color: #4b4641;
+  font-family: 'Varela Round', sans-serif;
+  color: #fff;
+}
+
+.text-field-3 {
+  border-radius: 5px;
+}
+
+.text-field-4 {
+  border-radius: 5px;
+}
+
+.div-block {
+  display: inline-block;
+  min-width: 50%;
+}
+
+.grid {
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.form__input {
+  min-height: 50px;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  color: grey;
+  font-size: 16px;
+}
+
+.form__input.state {
+  padding-left: 45px;
+  background-image: url('../images/maps-and-flags.svg');
+  background-position: 14px 50%;
+  background-size: 22px;
+  background-repeat: no-repeat;
+}
+
+.grid-2 {
+  grid-row-gap: 14px;
+  grid-template-areas: "Area";
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.submit-button {
+  position: static;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #a24100;
+}
+
+@media screen and (max-width: 767px) {
+  .grid {
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .section {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .grid {
+    grid-column-gap: 16px;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: auto auto auto;
+    grid-template-rows: auto auto auto;
+  }
+
+  .form__input.state {
+    font-size: 15px;
+  }
+
+  .grid-2 {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
+
+  .section {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+#w-node-60d12ae9c7cc-11afe9ff {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 8;
+  grid-column-start: span 8;
+  -ms-grid-column-span: 8;
+  grid-column-end: span 8;
+}
+
+#w-node-34d9aa35e42b-11afe9ff {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 4;
+  grid-column-start: span 4;
+  -ms-grid-column-span: 4;
+  grid-column-end: span 4;
+}
+
+#w-node-e7f8f13f5679-11afe9ff {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+}
+
+#w-node-8653a9deb2fc-11afe9ff {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+}
+
+#w-node-2c466b2944f4-11afe9ff {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+}
+
+@media screen and (max-width: 767px) {
+  #w-node-60d12ae9c7cc-11afe9ff {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 4;
+    grid-column-start: span 4;
+    -ms-grid-column-span: 4;
+    grid-column-end: span 4;
+  }
+
+  #w-node-34d9aa35e42b-11afe9ff {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+
+  #w-node-e7f8f13f5679-11afe9ff {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+
+  #w-node-8653a9deb2fc-11afe9ff {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #w-node-60d12ae9c7cc-11afe9ff {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 3;
+    grid-column-start: span 3;
+    -ms-grid-column-span: 3;
+    grid-column-end: span 3;
+  }
+
+  #w-node-34d9aa35e42b-11afe9ff {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 3;
+    grid-column-start: span 3;
+    -ms-grid-column-span: 3;
+    grid-column-end: span 3;
+  }
+
+  #w-node-8653a9deb2fc-11afe9ff {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+
+  #w-node-0ccb325fb3ce-11afe9ff {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+
+  #w-node-4c208dbbb29a-11afe9ff {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+}
